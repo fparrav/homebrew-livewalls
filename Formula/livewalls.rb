@@ -11,7 +11,7 @@ class Livewalls < Formula
     strategy :github_latest
   end
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   def install
     # Install the app bundle to Applications
