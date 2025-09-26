@@ -16,4 +16,4 @@ jobs:
         uses: Homebrew/actions/setup-homebrew@main
 
       - name: Run brew audit
-        run: brew audit --strict --online ./Formula/livewalls.rb
+        run: brew audit --strict --online livewalls
