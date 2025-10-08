@@ -4,8 +4,8 @@ require "fileutils"
 class Livewalls < Formula
   desc "LiveWalls: Use videos as dynamic desktop wallpapers on macOS"
   homepage "https://github.com/fparrav/LiveWalls"
-  url "https://github.com/fparrav/livewalls-dist/releases/download/v1.5.5/LiveWalls-v1.5.5.dmg"
-  sha256 "3e9790db497458bd2d82392d90f749a256990ac6824bf782286a5c66552bb171"
+  url "https://github.com/fparrav/livewalls-dist/releases/download/v1.5.6/LiveWalls-v1.5.6.dmg"
+  sha256 "a518dd686cfa7e723edcf377d13739915b851144341e08f36ffbb1fe99e357b6"
 
   livecheck do
     strategy :github_latest
